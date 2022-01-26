@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Anch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="380.0" prefWidth="705.0" style="-fx-background-color: #0b2287;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ProgController">
+   <children>
+      <ProgressBar fx:id="ProBar" layoutX="152.0" layoutY="265.0" prefHeight="19.0" prefWidth="414.0" progress="0.0" />
+      <Label fx:id="prog" layoutX="303.0" layoutY="224.0" prefHeight="17.0" prefWidth="112.0" text="Please Wait..." textFill="WHITE">
+         <font>
+            <Font name="Bookman Old Style" size="16.0" />
+         </font></Label>
+      <ImageView fitHeight="132.0" fitWidth="217.0" layoutX="134.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Line endX="-100.0" endY="331.0" layoutX="196.0" layoutY="49.0" startX="-100.0" startY="-49.0" stroke="#d1d7e4" />
+      <Line endX="598.0" layoutX="107.0" layoutY="306.0" startX="-107.0" stroke="#d1dce1" />
+      <Label layoutX="300.0" layoutY="76.0" prefHeight="37.0" prefWidth="347.0" text="Inventery Management System" textFill="WHITE">
+         <font>
+            <Font name="Britannic Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

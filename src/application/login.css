@@ -1,0 +1,34 @@
+.button {
+  
+
+  -fx-position: relative;
+  -fx-display: inline-block;
+ /* -fx-padding: 30px 61px;*/
+  -fx-background-radius: 4px;
+  -fx-color: #070849;
+  -fx-text-decoration: none;
+  -fx-text-transform: uppercase;
+  -fx-overflow: hidden;
+  /*-fx-margin: 25px;*/
+  /*-fx-font-family: "Roboto", sans-serif;*/
+  -fx-background-color:#090b8f;
+
+ 
+}
+.button:hover {
+  
+  -fx-background-color:#3a3bad;
+}
+
+/*.button:hover {
+  
+  -fx-background-color:#3a3bad;
+}*/
+
+
+.text-field{
+  -fx-background-color: #ffff;
+  -fx-background-raduis: 0,0,0,0;
+}
+
+
